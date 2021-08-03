@@ -40,27 +40,27 @@
 - create tsv file that contains accuracy information
 - detailed results included in ipynb file
 
-|accuracy|CNN|LSTM|GRU|
-|:--------:|------:|-----:|-----:|
+|accuracy|CNN|RNN|LSTM|GRU|Soft Voting|
+|:--------:|------:|-----:|-----:|---:|---:|
 |binary classify|
-|train|0.970|0.957|0.965|0.964|
-|validation|0.972|0.958|0.966|0.966|
-|test|0.972|0.971|0.966|0.971| 
+|train|0.970|0.957|0.965|0.964| |
+|validation|0.972|0.958|0.966|0.966| |
+|test|0.972|0.971|0.966|0.971|0.971|
 |multiclass classify|
-|train|0.971|0.937|0.958|0.958|
-|validation|0.970|0.942|0.966|0.971|
-|test|0.978|0.967|0.967|0.969| 
+|train|0.971|0.937|0.958|0.958| |
+|validation|0.949|0.942|0.966|0.971| |
+|test|0.978|0.967|0.967|0.969|0.972| 
 
 - results seem proper
 ## training_model_FordA.ipynb
 - create tsv file that contains accuracy information
 - detailed results included in ipynb file
 
-|accuracy|CNN|RNN|LSTM|GRU|Logistic Regression|XGBoost|
-|:--------:|------:|-----:|-----:|-----:|-----:|---:|
-|train|0.835|0.503|0.539|0.511|0.589|1|
-|validation|0.83|0.517|0.536|0.506|0.513|0.718|
-|test|0.872|0.473|0.577|0.513| 
+|accuracy|CNN|RNN|LSTM|GRU|Logistic Regression|XGBoost|Soft Voting|
+|:--------:|------:|-----:|-----:|-----:|-----:|---:|---:|
+|train|0.835|0.503|0.539|0.511|0.589|1| |
+|validation|0.83|0.517|0.536|0.506|0.513|0.718| |
+|test|0.872|0.473|0.577|0.513| | |0.866| 
 
 - except CNN, dataset seems not enough for other deep learning models(RNN, LSTM, GRU)
 - for Logistic Regression, underfitting occured(dataset seems not enough in size)
