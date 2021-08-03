@@ -36,9 +36,11 @@
 - Google Colaboratory (using TPU, on July.23rd.2021)
 
 # Result
-## taining_model_ai4i2020.ipynb
+## taining_model_ai4i.ipynb
 - create tsv file that contains accuracy information
 - detailed results included in ipynb file
+- to get test score of ai4i2020 dataset, use model_testing_ai4i.ipynb
+  - load saved model and do prediction using test data
 
 |accuracy|CNN|RNN|LSTM|GRU|Soft Voting|
 |:--------:|------:|-----:|-----:|---:|---:|
